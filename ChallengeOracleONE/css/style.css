@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: lightblue;
+}
+
+.container {    
+    max-width: 1200px;
+    margin: 0 auto;     
+    display: inline-block;  
+}
+
+.esquerda {
+    float: left;
+    width: 70%;
+    height: 40%;
+    border-radius: 10px;        
+}
+.direita {
+    float: right;
+    width: 20%;
+    height: auto;
+    border-radius: 9px;
+    background: lightblue; 
+    font-family: '8BIT WONDER', sans-serif; 
+    font-size: 15px;  
+}
+
+.botao-esquerdo {
+    float: left;
+    width: 70%;
+    height: auto;    
+    border-radius: 24px;         
+}
+.logoImg {    
+    margin: 1px auto;    
+    float:inherit;
+    max-width: 35%;
+    max-height: 35%;
+    display: block;
+    justify-content: center;
+    
+    
+}
+.titulo {
+    float: inherit;
+    margin-left: 10%;
+    text-align: center;
+    font-family: '8BIT WONDER', sans-serif;    
+    font-size: 26px;
+    color: #0A3871;                                            
+}
+.text-input {
+    float: initial;
+    margin: 11%;
+    margin-top: 6%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 37px;
+    border: 10px; 
+    outline: 10px;
+    font-family: '8BIT WONDER', sans-serif; 
+    
+}
+#imgDir {
+    margin-left: 26%;
+    margin-top: 0%;
+    width: 50%;
+    height: auto;
+    display: block;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+#texto {
+    margin-left: 16%;
+    margin-right: 3%;
+    font-family: '8BIT WONDER', sans-serif;
+    color: #0A3871;
+    font-size: 11px;
+}
+#texto2 {
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: '8BIT WONDER', sans-serif;
+    color: gray;
+}
+#btn-codificar {
+    padding: 20px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 8%;
+    background: #0A3871;
+    font-family: '8BIT WONDER', sans-serif;
+    font-size: 15px;
+    color: #D8DFE8;
+}
+#btn-decodificar {
+    padding: 20px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 25%;
+    background: #D8DFE8;
+    font-family: '8BIT WONDER', sans-serif;
+    font-size: 15px;
+    color: #0A3871;    
+}
+.textoBotao {
+    text-align: center;
+    font-size: 13px;
+    font-family: '8BIT WONDER', sans-serif;
+    color: #0A3871;
+    padding: 20px;
+}
+#copiar {
+    padding: 9px;
+    width: 43%;
+    height: 60%;
+    border-radius: 14px;
+    margin-left: 31%;
+    background: #D8DFE8;
+    font-family: '8BIT WONDER', sans-serif;
+    font-size: 14px;
+    color: #0A3871;  
+    text-align: center;
+}
+footer {
+    color: #0a3871;
+    background: #d8dfe8;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: '8BIT WONDER', sans-serif;
+    flex: auto;    ;
+}
+   
+.icones {
+    text-decoration: none;
+    font-size: large;
+    color: #000000;
+
+}
+img {
+    max-width: 70%;
+    max-height: 70%;
+}
+.megagif {
+    height: 180px;
+    width: 180px;    
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 0%;
+}
+.copyright {
+    text-align: center
+    justify;
+}
